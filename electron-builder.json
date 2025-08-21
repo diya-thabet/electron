@@ -1,0 +1,15 @@
+{
+    "appId": "com.dhia.vis", 
+    "files": ["dist-electron", "dist-react"], 
+    "icon":"./image.png" ,
+    "mac": {
+        "target":"dmg"
+    }, 
+    "linux": {
+        "target": "AppImage", 
+        "category": "Utility"
+    }, 
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
