@@ -1,5 +1,5 @@
 const POLLING_INTERVAL= 500
 
 export function pollResources(){
-    setInterval
+    setInterval(() => {} , POLLING_INTERVAL); 
 }
